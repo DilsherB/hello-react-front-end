@@ -15,7 +15,6 @@ export const getGreetings = createAsyncThunk(
     } catch (error) {
       return error.message;
     }
-    // eslint-disable-next-line comma-dangle
   }
 );
 
